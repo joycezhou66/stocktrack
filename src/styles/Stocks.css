@@ -1,0 +1,9 @@
+.market-overview {
+  padding: 16px;
+}
+
+.stock-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}

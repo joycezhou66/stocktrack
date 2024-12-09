@@ -1,0 +1,287 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice",
+      "email": "alice@example.com",
+      "password": "password456"
+    },
+    {
+      "id": "2",
+      "name": "Bob",
+      "email": "bob@example.com",
+      "password": "password123"
+    }
+  ],
+  "stocks": [
+    {
+      "id": "1",
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "price": 195.12,
+      "industry": "Technology"
+    },
+    {
+      "id": "2",
+      "symbol": "GOOGL",
+      "name": "Google LLC",
+      "price": 2789.24,
+      "industry": "Technology"
+    },
+    {
+      "id": "3",
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "price": 755.23,
+      "industry": "Automotive"
+    },
+    {
+      "id": "4",
+      "symbol": "MSFT",
+      "name": "Microsoft Corp.",
+      "price": 342.19,
+      "industry": "Technology"
+    }
+  ],
+  "watchlist": [
+    {
+      "id": 1,
+      "userId": 1,
+      "stockId": 1,
+      "stock": {
+        "id": 1,
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": 195.12,
+        "industry": "Technology"
+      },
+      "quantity": 10,
+      "notes": "Long-term investment, hold for 5 years.",
+      "addedAt": "2024-12-08T14:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "stockId": 2,
+      "stock": {
+        "id": 2,
+        "symbol": "GOOGL",
+        "name": "Google LLC",
+        "price": 2789.24,
+        "industry": "Technology"
+      },
+      "quantity": 5,
+      "notes": "Track quarterly earnings report.",
+      "addedAt": "2024-12-07T16:30:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "stockId": 3,
+      "stock": {
+        "id": 3,
+        "symbol": "TSLA",
+        "name": "Tesla Inc.",
+        "price": 755.23,
+        "industry": "Automotive"
+      },
+      "quantity": 2,
+      "notes": "Monitor EV market trends.",
+      "addedAt": "2024-12-06T12:45:00Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "stockId": 4,
+      "stock": {
+        "id": 4,
+        "symbol": "MSFT",
+        "name": "Microsoft Corp.",
+        "price": 342.19,
+        "industry": "Technology"
+      },
+      "quantity": 8,
+      "notes": "Potential for growth with AI integration.",
+      "addedAt": "2024-12-05T09:20:00Z"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "stockId": 2,
+      "stock": {
+        "id": 2,
+        "symbol": "GOOGL",
+        "name": "Google LLC",
+        "price": 2789.24,
+        "industry": "Technology"
+      },
+      "quantity": 7,
+      "notes": "Short-term growth expected after AI conference.",
+      "addedAt": "2024-12-04T11:00:00Z"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "stockId": 4,
+      "stock": {
+        "id": 4,
+        "symbol": "MSFT",
+        "name": "Microsoft Corp.",
+        "price": 342.19,
+        "industry": "Technology"
+      },
+      "quantity": 4,
+      "notes": "Track partnership with OpenAI.",
+      "addedAt": "2024-12-03T18:30:00Z"
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "stockId": 1,
+      "stock": {
+        "id": 1,
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": 195.12,
+        "industry": "Technology"
+      },
+      "quantity": 15,
+      "notes": "Wait for next iPhone release.",
+      "addedAt": "2024-12-02T22:15:00Z"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "stockId": 3,
+      "stock": {
+        "id": 3,
+        "symbol": "TSLA",
+        "name": "Tesla Inc.",
+        "price": 755.23,
+        "industry": "Automotive"
+      },
+      "quantity": 3,
+      "notes": "Tesla Cybertruck delivery expected.",
+      "addedAt": "2024-12-01T10:05:00Z"
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "stockId": 1,
+      "stock": {
+        "id": 1,
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": 195.12,
+        "industry": "Technology"
+      },
+      "quantity": 20,
+      "notes": "Dividend payment expected soon.",
+      "addedAt": "2024-12-09T13:20:00Z"
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "stockId": 4,
+      "stock": {
+        "id": 4,
+        "symbol": "MSFT",
+        "name": "Microsoft Corp.",
+        "price": 342.19,
+        "industry": "Technology"
+      },
+      "quantity": 12,
+      "notes": "Cloud services revenue increasing.",
+      "addedAt": "2024-12-10T08:45:00Z"
+    },
+    {
+      "id": "1182",
+      "stock": {
+        "name": "NVIDIA",
+        "symbol": "NVDA"
+      },
+      "quantity": 30,
+      "notes": "buy in two months",
+      "addedAt": "2024-12-09T07:07:33.251Z"
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "stockId": 1,
+      "headline": "Apple's new product release boosts stock 5%",
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "publishedAt": "2024-12-01T09:00:00Z"
+    },
+    {
+      "id": "2",
+      "stockId": 3,
+      "headline": "Tesla faces supply chain issues for Q4",
+      "source": "Reuters",
+      "sentiment": "negative",
+      "publishedAt": "2024-11-29T14:00:00Z"
+    },
+    {
+      "id": "3",
+      "stockId": 4,
+      "headline": "Microsoft announces new AI tools for Azure",
+      "source": "TechCrunch",
+      "sentiment": "positive",
+      "publishedAt": "2024-12-05T12:00:00Z"
+    },
+    {
+      "id": "4",
+      "stockId": 2,
+      "headline": "Google reveals details of AI-driven search updates",
+      "source": "The Verge",
+      "sentiment": "positive",
+      "publishedAt": "2024-12-02T15:00:00Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "stockId": 1,
+      "stock": {
+        "id": 1,
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": 195.12,
+        "industry": "Technology"
+      },
+      "type": "buy",
+      "quantity": 5,
+      "price": 190.25,
+      "date": "2024-11-30T15:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "stockId": 3,
+      "stock": {
+        "id": 3,
+        "symbol": "TSLA",
+        "name": "Tesla Inc.",
+        "price": 755.23,
+        "industry": "Automotive"
+      },
+      "type": "sell",
+      "quantity": 2,
+      "price": 750.5,
+      "date": "2024-11-25T08:30:00Z"
+    },
+    {
+      "id": "fc24",
+      "stock": {
+        "name": "NVIDIA"
+      },
+      "quantity": 4,
+      "price": 300.05,
+      "type": "buy",
+      "isPriority": true,
+      "date": "2024-12-09T07:13:11.951Z"
+    }
+  ]
+}

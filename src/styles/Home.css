@@ -1,0 +1,100 @@
+/* Home page layout */
+.home-page {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f4f4f9;
+  height: 100vh;
+}
+
+.home-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.daily-news {
+  background-color: #007bff;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.daily-news h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.news-highlight h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.news-highlight p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.sentiment {
+  font-weight: bold;
+}
+
+.sentiment.positive {
+  color: #28a745;
+}
+
+.sentiment.negative {
+  color: #dc3545;
+}
+
+.sentiment.neutral {
+  color: #6c757d;
+}
+
+.actions {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.actions h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.action-buttons .btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .action-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

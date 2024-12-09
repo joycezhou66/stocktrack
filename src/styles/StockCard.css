@@ -1,0 +1,27 @@
+.stock-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.stock-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.stock-card p {
+  margin: 4px 0;
+}
+
+.details-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.details-link:hover {
+  text-decoration: underline;
+}
