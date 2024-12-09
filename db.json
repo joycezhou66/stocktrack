@@ -45,7 +45,7 @@
   ],
   "watchlist": [
     {
-      "id": 1,
+      "id": "1",
       "userId": 1,
       "stockId": 1,
       "stock": {
@@ -60,7 +60,7 @@
       "addedAt": "2024-12-08T14:00:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "userId": 2,
       "stockId": 2,
       "stock": {
@@ -75,7 +75,7 @@
       "addedAt": "2024-12-07T16:30:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "userId": 1,
       "stockId": 3,
       "stock": {
@@ -90,7 +90,7 @@
       "addedAt": "2024-12-06T12:45:00Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "userId": 2,
       "stockId": 4,
       "stock": {
@@ -105,7 +105,7 @@
       "addedAt": "2024-12-05T09:20:00Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "userId": 1,
       "stockId": 2,
       "stock": {
@@ -120,7 +120,7 @@
       "addedAt": "2024-12-04T11:00:00Z"
     },
     {
-      "id": 6,
+      "id": "6",
       "userId": 1,
       "stockId": 4,
       "stock": {
@@ -135,7 +135,7 @@
       "addedAt": "2024-12-03T18:30:00Z"
     },
     {
-      "id": 7,
+      "id": "7",
       "userId": 2,
       "stockId": 1,
       "stock": {
@@ -150,7 +150,7 @@
       "addedAt": "2024-12-02T22:15:00Z"
     },
     {
-      "id": 8,
+      "id": "8",
       "userId": 1,
       "stockId": 3,
       "stock": {
@@ -165,7 +165,7 @@
       "addedAt": "2024-12-01T10:05:00Z"
     },
     {
-      "id": 9,
+      "id": "9",
       "userId": 2,
       "stockId": 1,
       "stock": {
@@ -180,7 +180,7 @@
       "addedAt": "2024-12-09T13:20:00Z"
     },
     {
-      "id": 10,
+      "id": "10",
       "userId": 1,
       "stockId": 4,
       "stock": {
@@ -195,14 +195,14 @@
       "addedAt": "2024-12-10T08:45:00Z"
     },
     {
-      "id": "1182",
+      "id": "7c8f",
       "stock": {
-        "name": "NVIDIA",
-        "symbol": "NVDA"
+        "name": "UBER",
+        "symbol": "UBER"
       },
-      "quantity": 30,
-      "notes": "buy in two months",
-      "addedAt": "2024-12-09T07:07:33.251Z"
+      "quantity": 5,
+      "notes": "Bad return ",
+      "addedAt": "2024-12-09T08:32:42.428Z"
     }
   ],
   "news": [
@@ -241,7 +241,7 @@
   ],
   "transactions": [
     {
-      "id": 1,
+      "id": "1",
       "userId": 1,
       "stockId": 1,
       "stock": {
@@ -257,7 +257,7 @@
       "date": "2024-11-30T15:00:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "userId": 1,
       "stockId": 3,
       "stock": {
@@ -282,6 +282,17 @@
       "type": "buy",
       "isPriority": true,
       "date": "2024-12-09T07:13:11.951Z"
+    },
+    {
+      "id": "baef",
+      "stock": {
+        "name": "MICROSOFT"
+      },
+      "quantity": 10,
+      "price": 250,
+      "type": "buy",
+      "isPriority": true,
+      "date": "2024-12-09T08:38:52.606Z"
     }
   ]
 }

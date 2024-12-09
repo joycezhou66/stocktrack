@@ -10,7 +10,7 @@ import Transactions from "./pages/Transactions";
 import "./styles/App.css";
 
 const PrivateRoute = ({ children }) => {
-  const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+  const currentUser = localStorage.getItem("currentUser") ? JSON.parse(localStorage.getItem("currentUser")) : null;
   return currentUser ? children : <Navigate to="/login" />;
 };
 
@@ -20,46 +20,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/login" element={<Login />} />
-        <Route
-          path="/"
-          element={
-            <PrivateRoute>
-              <Home />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/stocks"
-          element={
-            <PrivateRoute>
-              <Stocks />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/stock/:id"
-          element={
-            <PrivateRoute>
-              <StockDetails />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/watchlist"
-          element={
-            <PrivateRoute>
-              <Watchlist />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/transactions"
-          element={
-            <PrivateRoute>
-              <Transactions />
-            </PrivateRoute>
-          }
-        />
+        <Route path="/" element={<PrivateRoute><Home /></PrivateRoute>} />
+        <Route path="/stocks" element={<PrivateRoute><Stocks /></PrivateRoute>} />
+        <Route path="/stock/:id" element={<PrivateRoute><StockDetails /></PrivateRoute>} />
+        <Route path="/watchlist" element={<PrivateRoute><Watchlist /></PrivateRoute>} />
+        <Route path="/transactions" element={<PrivateRoute><Transactions /></PrivateRoute>} />
       </Routes>
     </div>
   );
