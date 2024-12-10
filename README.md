@@ -14,6 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### 'npx json-server --watch db.json --port 3001' 
+### `npx json-server --watch db.json --port 3001`
 
-Runs the backend JSON server while watching the db.json file and sets it on port 3001.\
+Runs the backend JSON server while watching the db.json file and sets it on port 3001.
