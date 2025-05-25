@@ -1,3 +1,7 @@
+### Project Demo
+
+[Click here to watch the demo video](https://usc.zoom.us/rec/play/nxjJ6-iVOhiIvjGqNENytWYQV6ufpFqs-nDj1sgaYRrpQRkg2GHYsBQpRwdy-P81SqJ1csiPqdvF-TFJ.XpciSa-aq09pB_Hu?canPlayFromShare=true&from=my_recording&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fusc.zoom.us%2Frec%2Fshare%2Fx-M7JP03XOMttgn8_dWzl8Lba79xpxud_1g62-7Pf5Flbv783gALQULy6tJPpHd2.BGtnBRjxlywpqfMQ&autoplay=true&startTime=1733733274000)
+
 # How to build the code
 
 ### `npm start build`
